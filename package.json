@@ -1,0 +1,16 @@
+{
+  "name": "simpleform",
+  "version": "1.0.0",
+  "description": "a simple form and submit to a file app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Xemicolon",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {}
+}
