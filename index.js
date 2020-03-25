@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
         });
         req.on("end", () => {
           res.end(
-            "<h1 style='text-align: center; width: 50%; margin: 0 auto'>Your message has been submitted and saved to a message.txt file on your PC. Check the same folder you ran the server from.</h1>"
+            "<h1 style='text-align: center; width: 50%; margin: 0 auto'>Your message has been submitted and saved to a message.txt file on your PC. Check the same folder you ran the server from...</h1>"
           );
         });
       }
